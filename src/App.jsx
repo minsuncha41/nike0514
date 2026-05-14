@@ -182,7 +182,10 @@ export default function App(){
           )}
 
           {loggedinuser ? (
-            <span className="login"  onClick={() => {loggedinuserSET(null); vwSET("home")}}>{loggedinuser.name}님 방갑습니다 로그아웃</span>
+            <>
+            <span className="us" >{loggedinuser.name}님 방갑습니다</span>
+            <span className="login"  onClick={() => {loggedinuserSET(null); vwSET("home")}}>로그아웃</span>
+            </>
           ) : (
             <span className="login" onClick={() => vwSET("login")}>로그인</span>
           )}
@@ -309,10 +312,10 @@ export default function App(){
                 {nike.map((nk) => (
                   <div className="likebox" key={nk.id}>
                     <img src={nk.imgurl} alt={nk.name} />
-                    <p>{nk.name}</p>
-                    <p>{nk.tt}</p>
-                    <span>정가: ( {nk.price.toLocaleString()}원 ) </span>
-                    <span>할인가: ( {(nk.price * 0.9) .toLocaleString()}원 )</span>
+                    <p className="p1">{nk.name}</p>
+                    <p className="p2">{nk.tt}</p>
+                    <span className="s1">정가: ( {nk.price.toLocaleString()}원 ) </span>
+                    <span className="s2">할인가: ( {(nk.price * 0.9) .toLocaleString()}원 )</span>
                     <button  onClick={() => deletepd(nk.id)}>삭제</button>
                   </div>
                 ))
@@ -329,7 +332,7 @@ export default function App(){
             <img src={select.imgurl} alt={select.name} className="modalimg" />
             <div className="modalinfo">
               <h2>{select.name}</h2>
-              <h3>{select.tt}</h3>
+              <h3 className="p2">{select.tt}</h3>
               {loggedinuser ? (
                 <p className="price sle" >할인가 {(select.price * 0.9).toLocaleString()}원</p>
               ) : (

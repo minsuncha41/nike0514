@@ -21,15 +21,22 @@
   width: 100%;
   height: 70px;
 }
+.us{
+  color: rgb(109, 0, 204);
+  font-weight: bold;
+  cursor: default;
+}
+
 .logo{
   width: 100px;
   cursor: pointer;
 }
 .login{
+  color: #ff5e5e;
   font-weight: bold;
 }
 .login:hover{
-  color: #ff5e5e;
+  color: #cf0000;
   font-weight: bold;
 }
 .topnav{
@@ -154,10 +161,19 @@
   width: 100%;
   cursor: default;
 }
+.p2{
+  color: #aaa;
+}
+.s2{
+  font-weight: bold;
+  color: red;
+}
+
+
 .adminfixbox button{
   font-weight: bold;
   cursor: pointer;
-  color: white;
+  color: black;
   background-color: #ffa0a0;
   width: 90%;
   margin: 0 auto;
@@ -167,6 +183,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .adminfixbox button:hover{
+  color: white;
     background-color: #ff4545;
 }
 .adminfixbox h3{
@@ -204,7 +221,7 @@
 .adminbox button{
   font-weight: bold;
   cursor: pointer;
-  color: white;
+  color: black;
   background-color: #ffa0a0;
   width: 90%;
   margin: 0 auto;
@@ -214,6 +231,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .adminbox button:hover{
+  color: white;
     background-color: #ff4545;
 }
 
