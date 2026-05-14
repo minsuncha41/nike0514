@@ -1,0 +1,42 @@
+.profile{
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-bottom: 7%;
+    width: calc(100% /3 - 10%);
+    background-color: white;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px 0;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.profile:hover{
+    transform: translateY(-10px);
+}
+
+.profile.slt{
+    border: 3px solid #ff6b6b;
+    transform: scale(1.1) translateY(-20px);
+}
+
+
+.profile img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.box{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px 0;
+}
+.box button{
+    cursor: pointer;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    background-color: skyblue;
+    font-weight: bold;
+}
+

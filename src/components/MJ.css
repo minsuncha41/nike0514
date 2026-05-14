@@ -1,0 +1,132 @@
+.mjwrap{
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2, h3, h4{
+    margin: 0;
+}
+
+.mjwrap img{
+    width: 200px;
+    height: 200px;
+}
+
+.mjinfo{
+    margin-left: 20px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.title{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+}
+.titbox{
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+    gap: 5px;
+    align-items: last baseline;
+}
+.title span{
+    color: rgb(152, 152, 255);
+    font-weight: bold;
+}
+.title button{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(255, 62, 49, 0.781);
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+.title button:hover{
+    background-color: red;
+}
+
+.message, .editbox ,.messagetextbox {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    text-align: left;
+}
+.messagetext{
+    margin-bottom: 5px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.editbtn,.savebtn{
+  padding: 10px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.editbtn:hover,.savebtn:hover{
+  background-color: #1573df;
+}
+.editbox textarea{
+    padding: 10px;
+}
+
+
+.quantitybox{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.outquantityboxall{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.outquantityboxall input{
+    width: 105px;
+}
+
+.outquantityboxall button{
+  padding: 7px 20px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.outquantityboxall button:hover{
+  background-color: #1573df;
+}
+
+
+.progressbg {
+    width: 100%;
+    height: 12px;
+    background-color: #e9ecef;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progressfill {
+    height: 100%;
+    background: #4caf50;
+}

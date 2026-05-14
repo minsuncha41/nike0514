@@ -1,0 +1,35 @@
+.animalscard{
+    width: 300px;
+    height: 330px;
+    background-color: wheat;
+}
+
+
+.text{
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding: 50px 40px;
+    box-sizing: border-box;
+}
+
+
+h3{
+font-size: 25px;
+font-weight: bold;
+text-align: center;
+}
+.imgs {
+    cursor: pointer;
+    width: 300px;
+    height: 330px;
+}
+
+.imgs img{
+    object-fit: cover;
+    width: 300px;
+    height: 250px;
+}

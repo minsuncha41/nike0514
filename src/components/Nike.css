@@ -1,0 +1,62 @@
+.likecard{
+    color: #000;
+    width: 49%;
+    margin-bottom: 3%;
+    cursor:default;
+}
+.imgbox{
+    overflow: hidden;
+}
+.imgbox img{
+    overflow: hidden;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.imgbox img:hover{
+    transform:scale(115%) translateY(-7%);
+}
+.pricearea{
+    text-align: left;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.pdname{
+    width: 100%;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.salebtn{
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #ffa0a0;
+    width: 100%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.salebtn:hover{
+    background-color: #ff4545;
+}
+
+.infobox{
+    padding:0 10px;
+    box-sizing: border-box;
+}
+.orprice{
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+.pdnamett{
+    color: #777777;
+    font-weight: bold;
+}
+.saletag{
+    color: red;
+    font-weight: bold;
+}

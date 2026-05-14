@@ -1,0 +1,35 @@
+
+
+
+/* 맛집 배열 불러오기 */
+.sliderbox{
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+.sliderbox:hover{
+    transform: translateY(-5px);
+}
+
+.foodimgs{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+h3{
+    margin: 15px 0 5px 0;
+    color: #333;
+}
+
+p{
+    color: #888;
+    font-size: 0.9rem;
+    margin:  0;
+}
