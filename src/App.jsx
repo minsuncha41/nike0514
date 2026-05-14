@@ -234,12 +234,12 @@ export default function App(){
             <div className="loginwrap">
               <h2 className="sectiontitle">NIKE LOGIN</h2>
               <input type="text" 
-              placeholder="아이디"
+              placeholder="아이디 (관리자123)"
               value={idinput}
               onChange={(e) => setidinput(e.target.value)}
               />
               <input type="password" 
-              placeholder="비밀번호"
+              placeholder="비밀번호 (관리자123)"
               value={pwinput}
               onChange={(e) => setpwinput(e.target.value)}
               />
